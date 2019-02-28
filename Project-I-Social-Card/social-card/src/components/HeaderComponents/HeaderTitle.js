@@ -5,7 +5,7 @@ function HeaderTitle(props) {
 	return ( <
 		React.Fragment >
 		<
-		h2 className = "header-title" > {
+		h2 className = "headerText" > {
 			props.title
 		} < /h2> <
 		p className = "handle" > {
@@ -17,3 +17,5 @@ function HeaderTitle(props) {
 		/React.Fragment>
 	);
 }
+
+export default HeaderTitle;
