@@ -5,8 +5,9 @@ import CardContent from "./CardContent";
 
 function CardContainer() {
 	return ( <
-		a className = "card-container"
-		href = "https://www.reactjs.org" >
+		div className = "card-container" >
+		<
+		a href = "https://www.reactjs.org" >
 		<
 		CardBanner / >
 		<
@@ -14,12 +15,9 @@ function CardContainer() {
 		text = "React makes it painless to create interactive UIs. Design simple views for each state in your application."
 		linkName = "reactjs.org" / >
 		<
-		/a>
+		/a> <
+		/div>
 	)
 }
 
-// const container = document.querySelector(".container");
-// container.addEventListener("click", function(e) {
-
-// });
 export default CardContainer;
