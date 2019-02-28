@@ -5,19 +5,21 @@ import CardContent from "./CardContent";
 
 function CardContainer() {
 	return ( <
-		React.Fragment >
+		a className = "card-container"
+		href = "https://www.reactjs.org" >
 		<
 		CardBanner / >
 		<
-		CardContent title = "Get started with React" / >
+		CardContent title = "Get started with React"
+		text = "React makes it painless to create interactive UIs. Design simple views for each state in your application."
+		linkName = "reactjs.org" / >
 		<
-		CardContent text = "React makes it painless to create interactive UIs. Design simple views for each state in your application." / >
-		<
-		CardContent linkName = "reactjs.org" / >
-		<
-		/React.Fragment>
+		/a>
 	)
 }
 
+// const container = document.querySelector(".container");
+// container.addEventListener("click", function(e) {
 
+// });
 export default CardContainer;
