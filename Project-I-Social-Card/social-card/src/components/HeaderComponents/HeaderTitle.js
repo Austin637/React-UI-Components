@@ -3,18 +3,18 @@ import './Header.css';
 
 function HeaderTitle(props) {
 	return ( <
-		React.Fragment >
+		div className = "header-title" >
 		<
 		h2 className = "headerText" > {
 			props.title
 		} < /h2> <
-		p className = "handle" > {
+		p className = "gray-text" > {
 			props.handle
 		} < /p> <
-		p className = "date" > {
+		p className = "gray-text" > {
 			props.date
 		} < /p> <
-		/React.Fragment>
+		/div>
 	);
 }
 

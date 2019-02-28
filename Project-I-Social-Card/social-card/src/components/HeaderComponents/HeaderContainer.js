@@ -6,19 +6,23 @@ import ImageThumbnail from "./ImageThumbnail";
 
 function HeaderContainer() {
 	return ( <
-		React.Fragment >
+		div className = "header" >
+		<
+		div >
 		<
 		ImageThumbnail / >
 		<
-		HeaderTitle title = "Lambda School" / >
+		/div> <
+		div className = "header-text" >
 		<
-		HeaderTitle handle = "@LambdaSchool" / >
-		<
-		HeaderTitle date = "26 Jan" / >
+		HeaderTitle title = "Lambda School"
+		handle = "@LambdaSchool"
+		date = "26 Jan" / >
 		<
 		HeaderContent / >
 		<
-		/React.Fragment>
+		/div> <
+		/div>
 	)
 }
 
