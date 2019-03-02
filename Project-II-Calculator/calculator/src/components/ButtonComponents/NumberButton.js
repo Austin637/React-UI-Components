@@ -3,7 +3,9 @@ import './Button.css';
 
 function NumberButton(props) {
 	return ( <
-		div > props.symbol < /div>
+		div className = "reg-button" > {
+			props.symbol
+		} < /div>
 	)
 }
 

@@ -3,10 +3,13 @@ import "./Button.css";
 import ActionButton from "./ActionButton.js";
 import NumberButton from "./NumberButton.js"
 
-function NumberContainer(props) { <
-	div >
+function NumberContainer(props) {
+	return ( <
+		div >
 		<
 		ActionButton symbol = "clear" / >
+		<
+		div className = "numbers" >
 		<
 		NumberButton symbol = "1" / >
 		<
@@ -26,9 +29,11 @@ function NumberContainer(props) { <
 		<
 		NumberButton symbol = "9" / >
 		<
+		/div> <
 		ActionButton symbol = "0" / >
 		<
 		/div>
+	)
 }
 
 export default NumberContainer;
