@@ -11,6 +11,8 @@ function NumberContainer(props) {
 		<
 		div className = "numbers" >
 		<
+		div className = "one-nine" >
+		<
 		NumberButton symbol = "1" / >
 		<
 		NumberButton symbol = "2" / >
@@ -32,6 +34,7 @@ function NumberContainer(props) {
 		/div> <
 		ActionButton symbol = "0" / >
 		<
+		/div> <
 		/div>
 	)
 }
