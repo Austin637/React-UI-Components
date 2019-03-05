@@ -4,7 +4,7 @@ import './Button.css';
 function ActionButton(props) {
 	return ( <
 		div className = "action-button" > {
-			props.symbol
+			props.text
 		} < /div>
 	)
 }

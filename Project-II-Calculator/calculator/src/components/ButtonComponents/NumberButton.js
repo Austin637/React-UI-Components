@@ -4,7 +4,7 @@ import './Button.css';
 function NumberButton(props) {
 	return ( <
 		div className = "reg-button" > {
-			props.symbol
+			props.text
 		} < /div>
 	)
 }

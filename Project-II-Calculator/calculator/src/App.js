@@ -18,7 +18,7 @@ const App = () => {
 		<
 		NumberContainer / >
 		<
-		OperatorContainer / >
+		OperatorContainer buttonStyle = "red" / >
 		<
 		/div> <
 		/div>

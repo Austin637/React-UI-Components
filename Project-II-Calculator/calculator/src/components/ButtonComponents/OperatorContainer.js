@@ -5,17 +5,19 @@ import NumberButton from "./NumberButton.js"
 
 function OperatorContainer(props) {
 	return ( <
-		div className = "red" >
+		div className = {
+			props.buttonStyle
+		} >
 		<
-		NumberButton symbol = "÷" / >
+		NumberButton text = "÷" / >
 		<
-		NumberButton symbol = "x" / >
+		NumberButton text = "x" / >
 		<
-		NumberButton symbol = "-" / >
+		NumberButton text = "-" / >
 		<
-		NumberButton symbol = "+" / >
+		NumberButton text = "+" / >
 		<
-		NumberButton symbol = "=" / >
+		NumberButton text = "=" / >
 		<
 		/div>
 	)
